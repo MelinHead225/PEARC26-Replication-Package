@@ -1,0 +1,120 @@
+/bsuhome/ericmelin/miniforge3/envs/ORNL2/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Trying lr=3e-05, batch=64, wd=0.01
+Validation Accuracy = 0.8529
+
+Best Validation Accuracy: 0.8529411764705882
+Best Params: (3e-05, 64, 0.01)
+
+Test Accuracy: 0.8431372549019608
+
+Classification Report:
+              precision    recall  f1-score   support
+
+non-negative       0.85      0.94      0.89        72
+    negative       0.82      0.60      0.69        30
+
+    accuracy                           0.84       102
+   macro avg       0.83      0.77      0.79       102
+weighted avg       0.84      0.84      0.84       102
+
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  ...-latest/model.safetensors:   0%|          |  551kB /  499MB            [A[A
+
+  ...-latest/model.safetensors:   0%|          |  551kB /  499MB            [A[AProcessing Files (0 / 1)      :   0%|          |  551kB /  499MB,  918kB/s  
+New Data Upload               :   0%|          |  551kB /  134MB,  918kB/s  [A
+
+  ...-latest/model.safetensors:   1%|          | 4.41MB /  499MB            [A[AProcessing Files (0 / 1)      :   1%|          | 4.41MB /  499MB, 5.51MB/s  
+New Data Upload               :   3%|▎         | 4.41MB /  134MB, 5.51MB/s  [A
+
+  ...-latest/model.safetensors:   2%|▏         | 9.36MB /  499MB            [A[AProcessing Files (0 / 1)      :   2%|▏         | 9.36MB /  499MB, 9.36MB/s  
+New Data Upload               :   5%|▍         | 9.36MB /  201MB, 9.36MB/s  [A
+
+  ...-latest/model.safetensors:   5%|▍         | 23.7MB /  499MB            [A[AProcessing Files (0 / 1)      :   5%|▍         | 23.7MB /  499MB, 19.7MB/s  
+New Data Upload               :  12%|█▏        | 23.7MB /  201MB, 19.7MB/s  [A
+
+  ...-latest/model.safetensors:   8%|▊         | 38.6MB /  499MB            [A[AProcessing Files (0 / 1)      :   8%|▊         | 38.6MB /  499MB, 27.5MB/s  
+New Data Upload               :  14%|█▍        | 38.6MB /  268MB, 27.5MB/s  [A
+
+  ...-latest/model.safetensors:  12%|█▏        | 62.3MB /  499MB            [A[AProcessing Files (0 / 1)      :  12%|█▏        | 62.3MB /  499MB, 38.9MB/s  
+New Data Upload               :  23%|██▎       | 62.3MB /  268MB, 38.9MB/s  [A
+
+  ...-latest/model.safetensors:  18%|█▊        | 87.6MB /  499MB            [A[AProcessing Files (0 / 1)      :  18%|█▊        | 87.6MB /  499MB, 48.7MB/s  
+New Data Upload               :  26%|██▌       | 87.6MB /  335MB, 48.7MB/s  [A
+
+  ...-latest/model.safetensors:  23%|██▎       |  113MB /  499MB            [A[AProcessing Files (0 / 1)      :  23%|██▎       |  113MB /  499MB, 56.5MB/s  
+New Data Upload               :  28%|██▊       |  113MB /  403MB, 56.5MB/s  [A
+
+  ...-latest/model.safetensors:  28%|██▊       |  141MB /  499MB            [A[AProcessing Files (0 / 1)      :  28%|██▊       |  141MB /  499MB, 63.9MB/s  
+New Data Upload               :  35%|███▍      |  141MB /  403MB, 63.9MB/s  [A
+
+  ...-latest/model.safetensors:  33%|███▎      |  164MB /  499MB            [A[AProcessing Files (0 / 1)      :  33%|███▎      |  164MB /  499MB, 68.4MB/s  
+New Data Upload               :  35%|███▍      |  164MB /  470MB, 68.4MB/s  [A
+
+  ...-latest/model.safetensors:  39%|███▊      |  192MB /  499MB            [A[AProcessing Files (0 / 1)      :  39%|███▊      |  192MB /  499MB, 74.0MB/s  
+New Data Upload               :  39%|███▊      |  192MB /  499MB, 74.0MB/s  [A
+
+  ...-latest/model.safetensors:  43%|████▎     |  215MB /  499MB            [A[AProcessing Files (0 / 1)      :  43%|████▎     |  215MB /  499MB, 76.6MB/s  
+New Data Upload               :  43%|████▎     |  215MB /  499MB, 76.6MB/s  [A
+
+  ...-latest/model.safetensors:  48%|████▊     |  240MB /  499MB            [A[AProcessing Files (0 / 1)      :  48%|████▊     |  240MB /  499MB, 80.0MB/s  
+New Data Upload               :  48%|████▊     |  240MB /  499MB, 80.0MB/s  [A
+
+  ...-latest/model.safetensors:  54%|█████▎    |  268MB /  499MB            [A[AProcessing Files (0 / 1)      :  54%|█████▎    |  268MB /  499MB, 83.7MB/s  
+New Data Upload               :  54%|█████▎    |  268MB /  499MB, 83.7MB/s  [A
+
+  ...-latest/model.safetensors:  58%|█████▊    |  288MB /  499MB            [A[AProcessing Files (0 / 1)      :  58%|█████▊    |  288MB /  499MB, 84.7MB/s  
+New Data Upload               :  58%|█████▊    |  288MB /  499MB, 84.7MB/s  [A
+
+  ...-latest/model.safetensors:  63%|██████▎   |  316MB /  499MB            [A[AProcessing Files (0 / 1)      :  63%|██████▎   |  316MB /  499MB, 87.8MB/s  
+New Data Upload               :  63%|██████▎   |  316MB /  499MB, 87.8MB/s  [A
+
+  ...-latest/model.safetensors:  68%|██████▊   |  339MB /  499MB            [A[AProcessing Files (0 / 1)      :  68%|██████▊   |  339MB /  499MB, 89.2MB/s  
+New Data Upload               :  68%|██████▊   |  339MB /  499MB, 89.2MB/s  [A
+
+  ...-latest/model.safetensors:  73%|███████▎  |  365MB /  499MB            [A[AProcessing Files (0 / 1)      :  73%|███████▎  |  365MB /  499MB, 91.1MB/s  
+New Data Upload               :  73%|███████▎  |  365MB /  499MB, 91.1MB/s  [A
+
+  ...-latest/model.safetensors:  78%|███████▊  |  389MB /  499MB            [A[AProcessing Files (0 / 1)      :  78%|███████▊  |  389MB /  499MB, 92.5MB/s  
+New Data Upload               :  78%|███████▊  |  389MB /  499MB, 92.5MB/s  [A
+
+  ...-latest/model.safetensors:  83%|████████▎ |  415MB /  499MB            [A[AProcessing Files (0 / 1)      :  83%|████████▎ |  415MB /  499MB, 94.2MB/s  
+New Data Upload               :  83%|████████▎ |  415MB /  499MB, 94.2MB/s  [A
+
+  ...-latest/model.safetensors:  87%|████████▋ |  434MB /  499MB            [A[AProcessing Files (0 / 1)      :  87%|████████▋ |  434MB /  499MB, 94.4MB/s  
+New Data Upload               :  87%|████████▋ |  434MB /  499MB, 94.4MB/s  [A
+
+  ...-latest/model.safetensors:  91%|█████████▏|  455MB /  499MB            [A[AProcessing Files (0 / 1)      :  91%|█████████▏|  455MB /  499MB, 94.8MB/s  
+New Data Upload               :  91%|█████████▏|  455MB /  499MB, 94.8MB/s  [A
+
+  ...-latest/model.safetensors:  95%|█████████▌|  476MB /  499MB            [A[AProcessing Files (0 / 1)      :  95%|█████████▌|  476MB /  499MB, 95.2MB/s  
+New Data Upload               :  95%|█████████▌|  476MB /  499MB, 95.2MB/s  [A
+
+  ...-latest/model.safetensors:  99%|█████████▊|  492MB /  499MB            [A[AProcessing Files (0 / 1)      :  99%|█████████▊|  492MB /  499MB, 94.6MB/s  
+New Data Upload               :  99%|█████████▊|  492MB /  499MB, 94.6MB/s  [A
+
+  ...-latest/model.safetensors: 100%|█████████▉|  498MB /  499MB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉|  498MB /  499MB, 92.2MB/s  
+New Data Upload               : 100%|█████████▉|  498MB /  499MB, 92.2MB/s  [A
+
+  ...-latest/model.safetensors: 100%|█████████▉|  498MB /  499MB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉|  498MB /  499MB, 89.0MB/s  
+New Data Upload               : 100%|█████████▉|  498MB /  499MB, 89.0MB/s  [A
+
+  ...-latest/model.safetensors: 100%|█████████▉|  498MB /  499MB            [A[A
+
+  ...-latest/model.safetensors: 100%|█████████▉|  498MB /  499MB            [A[AProcessing Files (0 / 1)      : 100%|█████████▉|  498MB /  499MB, 83.1MB/s  
+New Data Upload               : 100%|█████████▉|  498MB /  499MB, 83.1MB/s  [A
+
+  ...-latest/model.safetensors: 100%|██████████|  499MB /  499MB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  499MB /  499MB, 80.4MB/s  
+New Data Upload               : 100%|██████████|  499MB /  499MB, 80.4MB/s  [A
+
+  ...-latest/model.safetensors: 100%|██████████|  499MB /  499MB            [A[A
+
+  ...-latest/model.safetensors: 100%|██████████|  499MB /  499MB            [A[A
+
+  ...-latest/model.safetensors: 100%|██████████|  499MB /  499MB            [A[AProcessing Files (1 / 1)      : 100%|██████████|  499MB /  499MB, 75.5MB/s  
+New Data Upload               : 100%|██████████|  499MB /  499MB, 75.5MB/s  
+  ...-latest/model.safetensors: 100%|██████████|  499MB /  499MB            
+
+Model uploaded successfully to: https://huggingface.co/MelinHead225/fine-tuned-sentiment-roberta

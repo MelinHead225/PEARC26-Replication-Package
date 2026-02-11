@@ -1,0 +1,292 @@
+Jaccard similarities between top-K sets:
+embed_only vs lexical_only: 0.000
+embed_only vs tfidf_only: 0.000
+embed_only vs embed_lex: 0.774
+embed_only vs embed_tfidf: 0.198
+embed_only vs full: 0.623
+lexical_only vs tfidf_only: 0.066
+lexical_only vs embed_lex: 0.001
+lexical_only vs embed_tfidf: 0.006
+lexical_only vs full: 0.000
+tfidf_only vs embed_lex: 0.000
+tfidf_only vs embed_tfidf: 0.101
+tfidf_only vs full: 0.009
+embed_lex vs embed_tfidf: 0.220
+embed_lex vs full: 0.667
+embed_tfidf vs full: 0.376
+
+Variant: embed_only
+Top-K SATD type distribution: {'code/design_debt': 464, 'requirement_debt': 51, 'documentation_debt': 436, 'test_debt': 48, 'scientific_debt': 1}
+Top 25 prioritized SATD texts:
+1. [score: 0.5573] ultimate badness todo fix this
+2. [score: 0.5468] error?
+3. [score: 0.5447] Redundant
+4. [score: 0.5442] to do this in a better way
+5. [score: 0.5388] Unnecessary
+6. [score: 0.5388] unnecessary
+7. [score: 0.5388] unnecessary
+8. [score: 0.5388] unnecessary
+9. [score: 0.5388] unnecessary
+10. [score: 0.5363] Useless
+11. [score: 0.5362] todo fix it
+12. [score: 0.5347] know if its right this should be fixed
+13. [score: 0.5244] fixme get this properly
+14. [score: 0.5237] fixme mfh aug if were in this method then the
+15. [score: 0.5236] fixme mfh mar the following is a bit wicked in that it
+16. [score: 0.5192] fix this inefficient
+17. [score: 0.5151] fix me
+18. [score: 0.5151] fix me
+19. [score: 0.5151] fix me
+20. [score: 0.5151] fix me
+21. [score: 0.5145] fixed misspelling
+22. [score: 0.5145] fixed misspelling
+23. [score: 0.5145] fixed misspelling
+24. [score: 0.5110] fixme mfh dec this throws
+25. [score: 0.5110] corrected the description
+
+Variant: lexical_only
+Top-K SATD type distribution: {'code/design_debt': 344, 'test_debt': 337, 'documentation_debt': 193, 'requirement_debt': 94, 'scientific_debt': 32}
+Top 25 prioritized SATD texts:
+1. [score: 0.1600] tpetra merging develop branch into tpetra uvm removal 9089 tempus remove parameterlist from integratorbasic remove all the internal uses of parameterlist from integratorbasic this means moving the var...
+2. [score: 0.1600] summary significant upgrade to the teuchos memory management classes bugs 4206 checklist 1 did you add any source or other files needed for building testing or documentation? yes 1 a did you do a cvs ...
+3. [score: 0.1600] Here is the e-mail exchange related to this issue with a Chombo data set. We should really get to the bottom of this. We have this come up occasionally and never investigate. Hi Robert, The scalable r...
+4. [score: 0.1600] The Ale3D team maintains a test suite where they launch several VisIt cli's at the same time. They report that sometimes, VisIt does not start up successfully. The problem is likely due to having seve...
+5. [score: 0.1400] Thanks for pointing me to the docs. I know what  does, that's what I used it in my example. The point is that when using this version of , it actually works as expected, as opposed to my original vers...
+6. [score: 0.1400] Please don’t remove the function from the IO object. The tutorial examples
+are using it to print out which engine we are using BEFORE attempting the
+Open() call. This helps us to see that we actually ...
+7. [score: 0.1400] cmake modernization 1391 changes to building dyninst minimum cmake version is 3 14 0 sterile build is now deprecated enable lto was renamed to dyninst enable lto cmake export compile commands is no lo...
+8. [score: 0.1400] Yes, please! Consuming Dyninst is a bit of a nightmare right now. The original CMake system was written over ten years ago, and I've just been patching it up during my tenure. It's been on my wish lis...
+9. [score: 0.1400] Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.4.1 to 8.4.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest/releases">pytest'...
+10. [score: 0.1400] Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.3.5 to 8.4.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest/releases">pytest'...
+11. [score: 0.1400] Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.3.4 to 8.3.5.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/pytest-dev/pytest/releases">pytest'...
+12. [score: 0.1400] **REWRITTEN FOR BETTER EXPLAINATION**
+
+Unpacking and relocating packages that come out of a buildcache is a significant bottleneck for CI jobs since they always start from a clean install. This PR s...
+13. [score: 0.1400] I'm still in the process of doing a test build, so I haven't hit your errors yet (some flaky downloader failed over night...)
+
+There is at least one additional "problematic" hack that I had to intro...
+14. [score: 0.1400] amesos2 ifpack2 fixed eti for amesos2 superlu with supportgraph if ifpack2 s supportgraph and the superlu tpl are both enabled then ifpack2 has a link error when eti explicit template instantiation is...
+15. [score: 0.1400] doing partial port to sun 5 10 compilers here i am doing the port of all of the packages up to stratimikos and all optional packages minus tpetra and zoltan which don t build here only really the libr...
+16. [score: 0.1400] summary fix some build issues on sun bugs 4419 also moocho tests do not run checklist 1 did you add any source files? no 2 did you update or change the build system? no 3 did you rerun the test suite ...
+17. [score: 0.1400] Status Flag 'Master Merge AutoTester' - Jenkins Testing: 1 or more Jobs FAILED
+
+Note: Testing will normally be attempted again in approx. 15 Mins. If a change to the PR source branch occurs, the testi...
+18. [score: 0.1400] Status Flag 'Master Merge AutoTester' - Jenkins Testing: 1 or more Jobs FAILED
+
+Note: Testing will normally be attempted again in approx. 15 Mins. If a change to the PR source branch occurs, the testi...
+19. [score: 0.1400] @bartlettroscoe 
+ is not an ETI'd header at this time. So there is no _decl.hpp and _def.hpp ... so there shouldn't be any need to generate it.  I just need my  to find it.
+
+What's really weird to ...
+20. [score: 0.1400] <!---
+Be sure to select  as the  branch against which to create this
+pull request.  Only pull requests against  will undergo Trilinos'
+automated testing.  Pull requests against  will be ignored.
+-...
+21. [score: 0.1400] Personally, I tend to lean towards putting less responsibility on the reviewers and more responsibility on the developer opening the PR. I think the test suite should replace the work of a reviewer ha...
+22. [score: 0.1400] Brief synopsis of the test: Create 3 .visit files for the wave databases, (different names), to test database correlations with three windows locked in time. The test prints out DatabaseCorrelation In...
+23. [score: 0.1200] nlohmann json 2022 01 03 4f8fba14 code extracted from https github com nlohmann json git at commit 4f8fba14066156b73f1189a2b8bd568bde5284c5 master upstream shortlog alex beregszaszi 1 83491801 fix spe...
+24. [score: 0.1200] Actually, the original problem was for 1D numpy arrays. They are presented
+internally in ADIOS as 1xN arrays.
+I left the first "if" for arrays because they are more expected to
+receive than single val...
+25. [score: 0.1200] mpifort adds a -Wl,-flat_namespace flag, which, in conjunction with
+an ugly Xcode bug (http://www.openradar.me/25313838), prohibits the
+use of rpaths to locate the libraries. Therefore, in commit a8...
+
+Variant: tfidf_only
+Top-K SATD type distribution: {'requirement_debt': 51, 'code/design_debt': 424, 'test_debt': 164, 'scientific_debt': 33, 'documentation_debt': 328}
+Top 25 prioritized SATD texts:
+1. [score: 0.3339] implementing forward sensitivities for the piro tempussolver class for use by albany 7359 piro adding a couple member functions to piro transientsolver class piro cleanups to piro tempussolver removin...
+2. [score: 0.3332] > There are several configuration options with netcdf including parallel/non-parallel, with/without hdf5, with/without netcdf, with/without the local NC_MAX_\* changes recommended by exodus and the Fi...
+3. [score: 0.3315] @kddevin These are the conversions to Teuchos comm we discussed a while back. Most of this is just straight forward conversion from the MPI version to the Teuchos version.
+
+Teuchos didn't have logic...
+4. [score: 0.3287] Consider this as much an issue as it is a pull request. The changes here are not complete and definitely don't work in all situations, but I hope it can work as a starting point to get things working ...
+5. [score: 0.3226] @adamjstewart: 
+
+> Are we running the style tests on multiple versions of Python? I think we only need to test on the latest version.
+
+When you use the real type hints, things can fail in older ve...
+6. [score: 0.3226] ### Describe the bug
+
+The XDMF reader has buffers for the filenames and dataset names referenced in the xml files that are of 1024 characters long. A user ran into that limit. The code detects this ...
+7. [score: 0.3188] teuchos fix for reopened bug 4457 in particular this fix addresses the operator arrayview const t issue that is almost all compilers but gcc warn on that instance method of arrayview because if t cons...
+8. [score: 0.3188] If user doesn't have ImageMagick convert program on their system, or in their path, templated movies for formats other than PPM and mpeg will fail. Either user will get an error stating that 'convert'...
+9. [score: 0.3173] We see the   launch mechanism sporadically fail due to a  error.
+
+The error message looks like
+
+
+
+The failures happen in our own tests of our FE code that we build on top of . So far, we have not seen...
+10. [score: 0.3163] improve log parsing performance 7093 allow dashes in command names and fix command name handling command should allow dashes in their names like the reest of spack e g it might be too late for since i...
+11. [score: 0.3149] @kddevin: I’ve pushed changes which address several of these concerns but have some questions about the first issue - currently the branch is in a state with AllParameters active but not passing.
+
+_In...
+12. [score: 0.3136] > That sounds like a good idea to me @citibeth https://github.com/citibeth,
+> but would you agree that it's reasonable to get this in once the interface
+> and kinks are worked out then work on general...
+13. [score: 0.3128] > Thank you Kai for your observations. The lazy metadata reading got me and @wfgodoy thinking and we figured that there is a way to do this, with more interactions between the IO and Engine class. So ...
+14. [score: 0.3123] ### Description
+
+It looks like we support NP arrays in CLI assignments fairly well. In some cases, it works only via the Python deref () operator. But, since it does work, I think we'd like to prese...
+15. [score: 0.3105] i finally have the forward sensitivity stepper working with pretty good confidence i only have tested this on a diagonal model so there may still be problems to deal with i made a lot of changes to tr...
+16. [score: 0.3100] > @kliegeois, thanks for working on this. I know this is a lot of work and there is a lot of code here.
+> 
+> This is a pretty large patch so I will need to find several hours to look over all of thi...
+17. [score: 0.3099] fixes #45197
+
+Since the the MetaPathFinder now owns a lazily constructed RepoPath object, we need to deserialize environments _before_ the package that needs to be restored. Before we were relying o...
+18. [score: 0.3073] @csiefer2 @kddevin Just FYI
+
+@etphipp Adds 3-arg deep_copy specializations for Stokhos. This is needed for current work to refactor Tpetra to use 3-arg deep_copy. (#7975 #7971 for example).
+
+2 que...
+19. [score: 0.3058] summary more porting to sais028 and sass8000 bugs ??? checklist 1 did you add any source files? no 2 did you update or change the build system? no 3 did you rerun the test suite on at least the packag...
+20. [score: 0.3058] ### Description
+
+Resolves #18416
+
+<!-- Please include a summary of the change and any other information and instructions to help reviewers understand the work -->
+
+Add new surface rendering capa...
+21. [score: 0.3058] ### Description
+
+Resolves #18416
+
+<!-- Please include a summary of the change and any other information and instructions to help reviewers understand the work -->
+
+Add new surface rendering capa...
+22. [score: 0.3058] Here is my initial (superficial) code review ... 
+
+Looking over the changes, they are very clean and straightforward.  I have not had time to review every line of code added or changed but what I se...
+23. [score: 0.3056] ### Description
+
+#### Do not be dissuaded by the number of changes Github claims there are; the number of additions is so large because I have added back in , which accounts for the vast majority of...
+24. [score: 0.3056] > Ok, so I know this work is _in progress_ and already 60 files changed. So that is a bit of a [big change](https://bssw.io/items/pull-request-size-matters). I dunno how others feel but for me, the bi...
+25. [score: 0.3049] ### Description
+
+This is to test RTD behavior in a PR
+
+<!-- Please include a summary of the change and any other information and instructions to help reviewers understand the work -->
+
+### Type ...
+
+Variant: embed_lex
+Top-K SATD type distribution: {'code/design_debt': 502, 'requirement_debt': 51, 'documentation_debt': 400, 'test_debt': 45, 'scientific_debt': 2}
+Top 25 prioritized SATD texts:
+1. [score: 0.2886] ultimate badness todo fix this
+2. [score: 0.2834] error?
+3. [score: 0.2796] fix this inefficient
+4. [score: 0.2781] todo fix it
+5. [score: 0.2773] know if its right this should be fixed
+6. [score: 0.2724] Redundant
+7. [score: 0.2722] fixme get this properly
+8. [score: 0.2721] to do this in a better way
+9. [score: 0.2719] fixme mfh aug if were in this method then the
+10. [score: 0.2718] fixme mfh mar the following is a bit wicked in that it
+11. [score: 0.2694] Unnecessary
+12. [score: 0.2694] unnecessary
+13. [score: 0.2694] unnecessary
+14. [score: 0.2694] unnecessary
+15. [score: 0.2694] unnecessary
+16. [score: 0.2686] fixme mfh aug this method has entirely the wrong
+17. [score: 0.2682] Useless
+18. [score: 0.2676] fix me
+19. [score: 0.2676] fix me
+20. [score: 0.2676] fix me
+21. [score: 0.2676] fix me
+22. [score: 0.2673] fixed misspelling
+23. [score: 0.2673] fixed misspelling
+24. [score: 0.2673] fixed misspelling
+25. [score: 0.2661] fixme wrong
+
+Variant: embed_tfidf
+Top-K SATD type distribution: {'code/design_debt': 345, 'test_debt': 187, 'requirement_debt': 35, 'documentation_debt': 429, 'scientific_debt': 4}
+Top 25 prioritized SATD texts:
+1. [score: 0.3485] ultimate badness todo fix this
+2. [score: 0.3416] needs a test.
+3. [score: 0.3379] todo fix it
+4. [score: 0.3373] this obviously needs work
+5. [score: 0.3337] fix this inefficient
+6. [score: 0.3274] fix me
+7. [score: 0.3274] fix me
+8. [score: 0.3274] fix me
+9. [score: 0.3274] fix me
+10. [score: 0.3242] note lots of work to fix!
+11. [score: 0.3242] temporary fix
+12. [score: 0.3235] problems fix this somehow
+13. [score: 0.3232] fix test bug test passes now but it needs to do more
+14. [score: 0.3230] Still needs a test
+15. [score: 0.3219] bad fix later
+16. [score: 0.3216] fixme this code needs to be implemeneted
+17. [score: 0.3212] ### Description
+
+Resolves #19398
+
+Also includes #19903 merged into this branch to fix spelling error, refactor all instances of , and improve performance of  and extend for  too.
+
+<!-- Please in...
+18. [score: 0.3193] Looks good, but needs a test
+19. [score: 0.3189] test fix yet another typo
+20. [score: 0.3186] this is a sloppy fix to a silly problem
+21. [score: 0.3186] this is a sloppy fix to a silly problem
+22. [score: 0.3186] fixme mfh may this test doesnt currently pass i
+23. [score: 0.3176] todo fix this
+24. [score: 0.3176] todo fix this
+25. [score: 0.3176] todo fix this
+
+Variant: full
+Top-K SATD type distribution: {'code/design_debt': 429, 'test_debt': 94, 'documentation_debt': 430, 'requirement_debt': 44, 'scientific_debt': 3}
+Top 25 prioritized SATD texts:
+1. [score: 0.3663] ultimate badness todo fix this
+2. [score: 0.3536] todo fix it
+3. [score: 0.3491] fix this inefficient
+4. [score: 0.3460] error?
+5. [score: 0.3410] fix me
+6. [score: 0.3410] fix me
+7. [score: 0.3410] fix me
+8. [score: 0.3410] fix me
+9. [score: 0.3405] to do this in a better way
+10. [score: 0.3371] temporary fix
+11. [score: 0.3363] problems fix this somehow
+12. [score: 0.3344] bad fix later
+13. [score: 0.3326] fixme get this properly
+14. [score: 0.3311] this is a sloppy fix to a silly problem
+15. [score: 0.3311] this is a sloppy fix to a silly problem
+16. [score: 0.3308] needs a test.
+17. [score: 0.3304] fixme mfh may this test doesnt currently pass i
+18. [score: 0.3293] todo fix this
+19. [score: 0.3293] todo fix this
+20. [score: 0.3293] todo fix this
+21. [score: 0.3293] todo fix this
+22. [score: 0.3293] todo fix this
+23. [score: 0.3293] todo fix this
+24. [score: 0.3293] todo fix this
+25. [score: 0.3293] todo fix this
+Spearman rank correlation embed_only vs lexical_only: 0.763
+Spearman rank correlation embed_only vs tfidf_only: 0.886
+Spearman rank correlation embed_only vs embed_lex: 0.995
+Spearman rank correlation embed_only vs embed_tfidf: 0.979
+Spearman rank correlation embed_only vs full: 0.985
+Spearman rank correlation lexical_only vs tfidf_only: 0.861
+Spearman rank correlation lexical_only vs embed_lex: 0.763
+Spearman rank correlation lexical_only vs embed_tfidf: 0.763
+Spearman rank correlation lexical_only vs full: 0.763
+Spearman rank correlation tfidf_only vs embed_lex: 0.886
+Spearman rank correlation tfidf_only vs embed_tfidf: 0.886
+Spearman rank correlation tfidf_only vs full: 0.886
+Spearman rank correlation embed_lex vs embed_tfidf: 0.984
+Spearman rank correlation embed_lex vs full: 0.990
+Spearman rank correlation embed_tfidf vs full: 0.994
